@@ -3,12 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://danielpygo.github.io/portfolio/projects/</loc>
+    <lastmod>2018-11-15T00:40:56-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/blog/future/</loc>
+    <lastmod>2018-11-15T00:14:09-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/blog/thegame/</loc>
+    <lastmod>2018-11-14T23:49:31-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/resume/resume/</loc>
+    <lastmod>2018-11-12T21:24:07-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/notes/hashing/</loc>
+    <lastmod>2018-11-12T20:55:46-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/blog/banksy/</loc>
+    <lastmod>2018-11-12T16:18:57-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/posts/my-first-post/</loc>
+    <lastmod>2018-11-12T15:55:32-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/blog/</loc>
+    <lastmod>2018-11-15T00:14:09-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://danielpygo.github.io/</loc>
+    <lastmod>2018-11-15T00:40:56-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/notes/</loc>
+    <lastmod>2018-11-12T20:55:46-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/portfolio/</loc>
+    <lastmod>2018-11-15T00:40:56-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/posts/</loc>
+    <lastmod>2018-11-12T15:55:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/resume/</loc>
+    <lastmod>2018-11-12T21:24:07-06:00</lastmod>
     <priority>0</priority>
   </url>
   
