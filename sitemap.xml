@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://danielpygo.github.io/programming/intro/</loc>
+    <lastmod>2018-11-15T01:19:47-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/about/about/</loc>
+    <lastmod>2018-11-15T01:19:06-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/portfolio/projects/</loc>
     <lastmod>2018-11-15T00:40:56-06:00</lastmod>
   </url>
@@ -38,13 +48,19 @@
   </url>
   
   <url>
+    <loc>https://danielpygo.github.io/about/</loc>
+    <lastmod>2018-11-15T01:19:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://danielpygo.github.io/</loc>
-    <lastmod>2018-11-15T00:40:56-06:00</lastmod>
+    <lastmod>2018-11-15T01:19:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,6 +85,12 @@
   <url>
     <loc>https://danielpygo.github.io/posts/</loc>
     <lastmod>2018-11-12T15:55:32-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/programming/</loc>
+    <lastmod>2018-11-15T01:19:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
