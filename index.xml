@@ -17,7 +17,7 @@
       <pubDate>Thu, 15 Nov 2018 01:19:47 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/programming/intro/</guid>
-      <description>Hi. Page is in progress.</description>
+      <description> This will be a blog about things I am programming, opinions on programming languages, algorithms/projects that inspire me, and my classes as a CS undergrad at UT Austin! </description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Thu, 15 Nov 2018 01:19:06 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/about/about/</guid>
-      <description>#Page in progress</description>
+      <description>Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C++, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses  Other interests include food, cooking, writing, podcasts and extreme ferret racing! One thing I want to do before I die is travel to Italy or spend a day with Karl Pilkington.</description>
     </item>
     
     <item>
@@ -57,12 +57,12 @@
     </item>
     
     <item>
-      <title>Resume - New Grad Software Engineer 2019!</title>
+      <title>Resume - Seeking Full Time Software Engineering Role or Summer Internship</title>
       <link>https://danielpygo.github.io/resume/resume/</link>
       <pubDate>Mon, 12 Nov 2018 21:24:07 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/resume/resume/</guid>
-      <description>Download pdf!</description>
+      <description>I am applying for both right now! If I get the internship I want, I would take another semester to finish my minor after it in December 2019 (Since internships require a semester after it ends). As of right now, I am set to graduate in May 2019.   Download pdf!</description>
     </item>
     
     <item>
@@ -73,6 +73,15 @@
       <guid>https://danielpygo.github.io/notes/hashing/</guid>
       <description>Cmu hashing notes
 Separate Chaining The idea is to maintain an array of linked lists. All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure .. Cost of these operations is related to the average len of a chain. Disadvantage - costly allocation, and memory for the pointers.. O(n) worst case.</description>
+    </item>
+    
+    <item>
+      <title>Re: Exit Through The Gift Shop</title>
+      <link>https://danielpygo.github.io/blog/banksy/</link>
+      <pubDate>Mon, 12 Nov 2018 16:18:57 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/blog/banksy/</guid>
+      <description>I just watched Exit Through The Gift Shop (2010) the other night and it has to be my favorite documentary. It&#39;s about graffiti art and produced by Banksy. It&#39;s a documentary started by a crazy but hilarious french graffiti cameraman Thierry, but eventually finished by Banksy, the most famous and unmasked graffiti artist alive. Thierry, the cameraman, could never finish because he had collected thousands of hours of film over 8 years, with no real plan or storyline.</description>
     </item>
     
     <item>
