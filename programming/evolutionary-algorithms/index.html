@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     
+    
+
+
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
@@ -14,18 +17,18 @@
     
     
 
-<title>About Me • Daniel Moore&#39;s Website</title>
+<title>Evolutionary Algorithms • Daniel Moore&#39;s Website</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="About Me"/>
-<meta name="twitter:description" content="Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C&#43;&#43;, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses  I am a software engineer attending UT Austin, and am good at systems, applications, and cloud computing!"/>
+<meta name="twitter:title" content="Evolutionary Algorithms"/>
+<meta name="twitter:description" content="Learning to play Pytux - a 2D platformer using gradient-free learning"/>
 
-<meta property="og:title" content="About Me" />
-<meta property="og:description" content="Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C&#43;&#43;, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses  I am a software engineer attending UT Austin, and am good at systems, applications, and cloud computing!" />
+<meta property="og:title" content="Evolutionary Algorithms" />
+<meta property="og:description" content="Learning to play Pytux - a 2D platformer using gradient-free learning" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://danielpygo.github.io/about/about/" /><meta property="article:published_time" content="2018-11-15T01:19:06-06:00"/>
-<meta property="article:modified_time" content="2018-11-15T01:19:06-06:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
+<meta property="og:url" content="https://danielpygo.github.io/programming/evolutionary-algorithms/" /><meta property="article:published_time" content="2018-11-17T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-11-17T00:00:00&#43;00:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
 
 
     
@@ -171,26 +174,99 @@
 
         <div class="content container">
             
-    <div class="post">
-        <h1>About Me</h1>
-        <p>
-Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C++, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses
+    <article>
+  <header>
+    <h1>Evolutionary Algorithms</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Nov 17, 2018
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>
+Last night, for my neural networks class, we were told to make Tux (basically mario but a penguin)
+complete all the levels using a gradient free method. It was interesting because it was fine tuning a model
+that was able to get decently far into the level.
 </p>
 <p>
-I am a software engineer attending UT Austin, and am good at systems, applications, and cloud computing!
+In my previous model I used convolutional neural network to feed
+into the features of a GRU Recurrent network. Then, without needing backprop, I trained 20 models using some small deviation
+on the parameters, and generated rewards for each of them. I noticed my stddev being too high would just destroy my
+model so I had to tune the starting std down.
 </p>
 <p>
-Other interests include food, cooking, writing, podcasts and extreme ferret racing! One thing I want to do before I die is travel to Italy or spend a day with Karl Pilkington. I have a love/hate relationship with sleep and one day want to learn a lot about architecture so that I can design my dream house.
+I kept the top 4 models around, and generated 16 new ones using the best offspring's genetics! I decided to keep the top 20% around, because I didn't want my model to get worse over time. That was
+one optimization I used! Also used a hashmap to store indices -> (mean,stdev) in order to calculation the perturbation or
+noise on a parameter for fast lookup.
+</p>
+
+<p>
+I used python3 and pytorch on this project and really enjoyed the visual element to it, I could see how the offspring were
+playing the level!
 </p>
 
   </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/programming/intro/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Intro</span>
+    </a>
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
 
         </div>
         
+    
 <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
   integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
   crossorigin="anonymous">
 </script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
+
 
 
     </body>
