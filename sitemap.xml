@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://danielpygo.github.io/notes/light_physics/</loc>
+    <lastmod>2018-11-12T20:55:46-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/posts/my-first-post/</loc>
     <lastmod>2018-11-12T15:55:32-06:00</lastmod>
   </url>
@@ -70,9 +75,12 @@
   </url>
   
   <url>
+    <loc>https://danielpygo.github.io/personal/judging/</loc>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/notes/</loc>
     <lastmod>2018-11-12T20:55:46-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -21,5 +21,16 @@
 Separate Chaining The idea is to maintain an array of linked lists. All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure .. Cost of these operations is related to the average len of a chain. Disadvantage - costly allocation, and memory for the pointers.. O(n) worst case.</description>
     </item>
     
+    <item>
+      <title>Ray Tracing/Physics</title>
+      <link>https://danielpygo.github.io/notes/light_physics/</link>
+      <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/light_physics/</guid>
+      <description>Mirrors Why do mirrors reflect: 1. Nature of the metal Electrons are loosely attached to metals and are able to For visible light (low frequency), the electrons can match the speed and reflect the light. For UV, it is too high so it doesn&amp;rsquo;t reflect
+Different metals reflect different wavelengths The highest frequency light reflected is called plasma frequency This differs between metals, steel is high
+ &amp;ldquo;Mirrors reflect mainly bc they are electrically conductive&amp;rdquo; When it hits a mirror the metal cancels out the electric field parallel to the mirror, so it changes directions and reflects away.</description>
+    </item>
+    
   </channel>
 </rss>

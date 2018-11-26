@@ -58,6 +58,17 @@ Separate Chaining The idea is to maintain an array of linked lists. All keys tha
     </item>
     
     <item>
+      <title>Ray Tracing/Physics</title>
+      <link>https://danielpygo.github.io/notes/light_physics/</link>
+      <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/light_physics/</guid>
+      <description>Mirrors Why do mirrors reflect: 1. Nature of the metal Electrons are loosely attached to metals and are able to For visible light (low frequency), the electrons can match the speed and reflect the light. For UV, it is too high so it doesn&amp;rsquo;t reflect
+Different metals reflect different wavelengths The highest frequency light reflected is called plasma frequency This differs between metals, steel is high
+ &amp;ldquo;Mirrors reflect mainly bc they are electrically conductive&amp;rdquo; When it hits a mirror the metal cancels out the electric field parallel to the mirror, so it changes directions and reflects away.</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>https://danielpygo.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 12 Nov 2018 15:55:32 -0600</pubDate>
@@ -100,6 +111,16 @@ Separate Chaining The idea is to maintain an array of linked lists. All keys tha
       
       <guid>https://danielpygo.github.io/programming/intro/</guid>
       <description> This will be a blog about things I am programming, opinions on programming languages, algorithms/projects that inspire me, and my classes as a CS undergrad at UT Austin! </description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Be a Hater</title>
+      <link>https://danielpygo.github.io/personal/judging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/judging/</guid>
+      <description>I watched a Vice documentary on an infamous character in American culture, and it was one of those moments where you realize you had been totally wrong about someone. The editing and narrative by Vice, was obviously trying to show a different perspective on this guy, and by the end of it the reporter seemed charmed with him and maaaybbeee had a crush on him as well
+One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from twitch chat became a millionaire&amp;rdquo;.</description>
     </item>
     
   </channel>
