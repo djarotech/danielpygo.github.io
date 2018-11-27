@@ -18,7 +18,7 @@
       
       <guid>https://danielpygo.github.io/notes/hashing/</guid>
       <description>Cmu hashing notes
-Separate Chaining The idea is to maintain an array of linked lists. All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure .. Cost of these operations is related to the average len of a chain. Disadvantage - costly allocation, and memory for the pointers.. O(n) worst case.</description>
+Separate Chaining  The idea is to maintain an array of linked lists All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure .. Cost of these operations is related to the average len of a chain. Disadvantage - costly allocation, and memory for the pointers.</description>
     </item>
     
     <item>
@@ -27,9 +27,23 @@ Separate Chaining The idea is to maintain an array of linked lists. All keys tha
       <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/notes/light_physics/</guid>
-      <description>Mirrors Why do mirrors reflect: 1. Nature of the metal Electrons are loosely attached to metals and are able to For visible light (low frequency), the electrons can match the speed and reflect the light. For UV, it is too high so it doesn&amp;rsquo;t reflect
-Different metals reflect different wavelengths The highest frequency light reflected is called plasma frequency This differs between metals, steel is high
- &amp;ldquo;Mirrors reflect mainly bc they are electrically conductive&amp;rdquo; When it hits a mirror the metal cancels out the electric field parallel to the mirror, so it changes directions and reflects away.</description>
+      <description>Mirrors
+Why do mirrors reflect: Nature of the metal  Electrons are loosely attached to metals and are able to For visible light (low frequency), the electrons can match the speed and reflect the light. For UV, it is too high so it doesn&amp;rsquo;t reflect
+ Different metals reflect different wavelengths The highest frequency light reflected is called plasma frequency
+ This differs between metals, steel is high
+  &amp;ldquo;Mirrors reflect mainly bc they are electrically conductive&amp;rdquo;  When it hits a mirror the metal cancels out the electric field parallel to the mirror, so it changes directions and reflects away.</description>
+    </item>
+    
+    <item>
+      <title>Threads and Processes</title>
+      <link>https://danielpygo.github.io/notes/threadsprocess/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/threadsprocess/</guid>
+      <description>Process is an executing program
+A process can consist of multiple threads
+Threads are lightweight processes used to complete small tasks; processes used for heavier tasks.
+Advantages of Threads:  Lightweight Can read and write to the same data structures and resources.  Disadvantages of Threads:  IPC is difficult and errors arise Synchronization and race conditions Requires careful attention; must use a lock to prevent other threads from running a certain critical section  Advantages of Process  Independent of each other (threads are interdepedent)  Context Switching  The process of storing an d restoring context of a program so that the exectuion can be resumed from the same point at another time.</description>
     </item>
     
   </channel>

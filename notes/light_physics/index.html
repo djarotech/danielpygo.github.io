@@ -197,32 +197,61 @@
   
   
   <div class="post">
-    <p><a href="http://scienceline.ucsb.edu/getkey.php?key=3903">Mirrors</a>
-Why do mirrors reflect:
-1. Nature of the metal
-Electrons are loosely attached to metals and are able to
-For visible light (low frequency), the electrons can match the speed
-and reflect the light. For UV, it is too high so it doesn&rsquo;t reflect</p>
+    
 
-<p>Different metals reflect different wavelengths
-The highest frequency light reflected is called <b>plasma frequency</b>
-This differs between metals, steel is high</p>
+<p><a href="http://scienceline.ucsb.edu/getkey.php?key=3903">Mirrors</a></p>
 
-<ol>
-<li><p>&ldquo;Mirrors reflect mainly bc they are electrically conductive&rdquo;
-When it hits a mirror the metal cancels out the electric field
-parallel to the mirror, so it changes directions and reflects away.</p></li>
+<h1 id="why-do-mirrors-reflect">Why do mirrors reflect:</h1>
 
-<li><p>Silver cannot absorb the light, light cannot travel through silver,
-so it bounces off and returns to your eye.</p></li>
-</ol>
+<h2 id="nature-of-the-metal">Nature of the metal</h2>
 
-<p>Ray Tracing Notes</p>
+<ul>
+<li>Electrons are loosely attached to metals and are able to</li>
+
+<li><p>For visible light (low frequency), the electrons can match the speed
+and reflect the light. For UV, it is too high so it doesn&rsquo;t reflect</p></li>
+
+<li><p>Different metals reflect different wavelengths
+The highest frequency light reflected is called <em>plasma frequency</em></p></li>
+
+<li><p>This differs between metals, steel is high</p></li>
+</ul>
+
+<h2 id="mirrors-reflect-mainly-bc-they-are-electrically-conductive">&ldquo;Mirrors reflect mainly bc they are electrically conductive&rdquo;</h2>
+
+<ul>
+<li>When it hits a mirror the metal cancels out the electric field parallel to the mirror, so it changes directions and reflects away.</li>
+</ul>
+
+<h1 id="ray-tracing-notes">Ray Tracing Notes</h1>
+
+<p><a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1997-98/ray-tracing/implementation.html">https://cs.stanford.edu/people/eroberts/courses/soco/projects/1997-98/ray-tracing/implementation.html</a></p>
+
+<p>Pseudocode:</p>
+
+<pre><code>for(each pixel (sample) on the viewing area)
+{
+   for(each primitive in the world model)
+   {
+      if(ray-pixel intersection)
+      {
+          select the frontmost intersection;
+          recursively trace the relection and refraction rays;
+          calculate color;
+      }
+   }
+}
+</code></pre>
 
   </div>
   
 
 <div class="navigation navigation-single">
+    
+    <a href="/notes/threadsprocess/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Threads and Processes</span>
+    </a>
     
     
     <a href="/notes/hashing/" class="navigation-next">
