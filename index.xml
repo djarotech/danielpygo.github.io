@@ -6,10 +6,19 @@
     <description>Recent content on Daniel Moore&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://danielpygo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Breaking up</title>
+      <link>https://danielpygo.github.io/personal/love/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/love/</guid>
+      <description>There&amp;rsquo;s nothing worse than a relationship on its last leg and that&amp;rsquo;s kind of where I have been for the last 3 months. It was miserable, but last night I felt like a weight was lifted off me and that I could finally breathe easy again. With so many rules, forbidden topics, and arguments/accusations, it was starting to feel like an adverserial game . Like, we weren&amp;rsquo;t on the same team.</description>
+    </item>
     
     <item>
       <title>Evolutionary Algorithms</title>
@@ -98,6 +107,16 @@ Why do mirrors reflect: Nature of the metal  Electrons are loosely attached to m
     </item>
     
     <item>
+      <title>Don&#39;t Be a Hater</title>
+      <link>https://danielpygo.github.io/personal/judging/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/judging/</guid>
+      <description>I watched a Vice documentary on an infamous character in American culture, and it was one of those moments where you realize you had been totally wrong about someone. The editing and narrative by Vice, was obviously trying to show a different perspective on this guy, and by the end of it the reporter seemed charmed with him and maaaybbeee had a crush on him as well
+One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from twitch chat became a millionaire&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Re: Exit Through The Gift Shop</title>
       <link>https://danielpygo.github.io/personal/banksy/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
@@ -125,16 +144,6 @@ Why do mirrors reflect: Nature of the metal  Electrons are loosely attached to m
 A process can consist of multiple threads
 Threads are lightweight processes used to complete small tasks; processes used for heavier tasks.
 Advantages of Threads:  Lightweight Can read and write to the same data structures and resources.  Disadvantages of Threads:  IPC is difficult and errors arise Synchronization and race conditions Requires careful attention; must use a lock to prevent other threads from running a certain critical section  Advantages of Process  Independent of each other (threads are interdepedent)  Context Switching  The process of storing an d restoring context of a program so that the exectuion can be resumed from the same point at another time.</description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t Be a Hater</title>
-      <link>https://danielpygo.github.io/personal/judging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danielpygo.github.io/personal/judging/</guid>
-      <description>I watched a Vice documentary on an infamous character in American culture, and it was one of those moments where you realize you had been totally wrong about someone. The editing and narrative by Vice, was obviously trying to show a different perspective on this guy, and by the end of it the reporter seemed charmed with him and maaaybbeee had a crush on him as well
-One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from twitch chat became a millionaire&amp;rdquo;.</description>
     </item>
     
   </channel>

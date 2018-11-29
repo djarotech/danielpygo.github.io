@@ -6,10 +6,19 @@
     <description>Recent content in Personal Blog on Daniel Moore&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Nov 2018 23:49:31 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 28 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://danielpygo.github.io/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Breaking up</title>
+      <link>https://danielpygo.github.io/personal/love/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/love/</guid>
+      <description>There&amp;rsquo;s nothing worse than a relationship on its last leg and that&amp;rsquo;s kind of where I have been for the last 3 months. It was miserable, but last night I felt like a weight was lifted off me and that I could finally breathe easy again. With so many rules, forbidden topics, and arguments/accusations, it was starting to feel like an adverserial game . Like, we weren&amp;rsquo;t on the same team.</description>
+    </item>
     
     <item>
       <title>Complexity: What Excites Me</title>
@@ -39,22 +48,22 @@
     </item>
     
     <item>
+      <title>Don&#39;t Be a Hater</title>
+      <link>https://danielpygo.github.io/personal/judging/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/judging/</guid>
+      <description>I watched a Vice documentary on an infamous character in American culture, and it was one of those moments where you realize you had been totally wrong about someone. The editing and narrative by Vice, was obviously trying to show a different perspective on this guy, and by the end of it the reporter seemed charmed with him and maaaybbeee had a crush on him as well
+One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from twitch chat became a millionaire&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Re: Exit Through The Gift Shop</title>
       <link>https://danielpygo.github.io/personal/banksy/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://danielpygo.github.io/personal/banksy/</guid>
       <description>I just watched Exit Through The Gift Shop (2010) the other night and it has to be my favorite documentary. It&#39;s about graffiti art and produced by Banksy. It&#39;s a documentary started by a crazy but hilarious french graffiti cameraman Thierry, but eventually finished by Banksy, the most famous and unmasked graffiti artist alive. Thierry, the cameraman, could never finish because he had collected thousands of hours of film over 8 years, with no real plan or storyline.</description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t Be a Hater</title>
-      <link>https://danielpygo.github.io/personal/judging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danielpygo.github.io/personal/judging/</guid>
-      <description>I watched a Vice documentary on an infamous character in American culture, and it was one of those moments where you realize you had been totally wrong about someone. The editing and narrative by Vice, was obviously trying to show a different perspective on this guy, and by the end of it the reporter seemed charmed with him and maaaybbeee had a crush on him as well
-One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from twitch chat became a millionaire&amp;rdquo;.</description>
     </item>
     
   </channel>
