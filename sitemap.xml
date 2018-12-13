@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://danielpygo.github.io/about/about/</loc>
+    <loc>https://danielpygo.github.io/about/</loc>
     <lastmod>2018-11-15T01:19:06-06:00</lastmod>
   </url>
   
@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://danielpygo.github.io/quotes/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danielpygo.github.io/personal/banksy/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -70,12 +75,6 @@
   <url>
     <loc>https://danielpygo.github.io/notes/threadsprocess/</loc>
     <lastmod>2018-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://danielpygo.github.io/about/</loc>
-    <lastmod>2018-11-15T01:19:06-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

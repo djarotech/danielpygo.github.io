@@ -27,16 +27,18 @@ Like, we weren&amp;rsquo;t on the same team.</description>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://danielpygo.github.io/programming/evolutionary-algorithms/</guid>
-      <description>Last night, for my neural networks class, we were told to make Tux (basically mario but a penguin) complete all the levels using a gradient free method. It was interesting because it was fine tuning a model that was able to get decently far into the level.  In my previous model I used convolutional neural network to feed into the features of a GRU Recurrent network. Then, without needing backprop, I trained 20 models using some small deviation on the parameters, and generated rewards for each of them.</description>
+      <description>Last night, for my neural networks class, we were told to make Tux (basically mario but a penguin) complete all the levels using a gradient free method. It was interesting because it was fine tuning a model that was able to get decently far into the level.
+In my previous model I used convolutional neural network to feed into the features of a GRU Recurrent network. Then, without needing backprop, I trained 20 models using some small deviation on the parameters, and generated rewards for each of them.</description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://danielpygo.github.io/about/about/</link>
+      <link>https://danielpygo.github.io/about/</link>
       <pubDate>Thu, 15 Nov 2018 01:19:06 -0600</pubDate>
       
-      <guid>https://danielpygo.github.io/about/about/</guid>
-      <description>Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C++, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses  I am a software engineer attending UT Austin, and am good at systems, applications, and cloud computing!</description>
+      <guid>https://danielpygo.github.io/about/</guid>
+      <description>Currently, I am a student at The University of Texas at Austin and am majoring in Computer Science. My expertise is in Cloud Computing and Software Engineering (Applications/Backend). I am excellent at C++, Java and Go. I have done a lot of coding in Python as well for artificial intelligence related courses
+Other interests include food, cooking, writing, podcasts and extreme ferret racing! One thing I want to do before I die is travel to Italy or spend a day with Karl Pilkington.</description>
     </item>
     
     <item>
@@ -122,6 +124,17 @@ One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from 
     </item>
     
     <item>
+      <title>Favorite Quotes</title>
+      <link>https://danielpygo.github.io/quotes/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/quotes/</guid>
+      <description>If small holes aren&amp;rsquo;t fixed, then big holes will bring hardship.
+It&amp;rsquo;s better to walk thousands of miles than to read thousands of books.
+Every step makes a footprint.</description>
+    </item>
+    
+    <item>
       <title>Re: Exit Through The Gift Shop</title>
       <link>https://danielpygo.github.io/personal/banksy/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
@@ -136,7 +149,7 @@ One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from 
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://danielpygo.github.io/programming/intro/</guid>
-      <description> This will be a blog about things I am programming, opinions on programming languages, algorithms/projects that inspire me, and my classes as a CS undergrad at UT Austin! </description>
+      <description>This will be a blog about things I am programming, opinions on programming languages, algorithms/projects that inspire me, and my classes as a CS undergrad at UT Austin!</description>
     </item>
     
     <item>
@@ -149,6 +162,15 @@ One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from 
 A process can consist of multiple threads
 Threads are lightweight processes used to complete small tasks; processes used for heavier tasks.
 Advantages of Threads:  Lightweight Can read and write to the same data structures and resources.  Disadvantages of Threads:  IPC is difficult and errors arise Synchronization and race conditions Requires careful attention; must use a lock to prevent other threads from running a certain critical section  Advantages of Process  Independent of each other (threads are interdepedent)  Context Switching  The process of storing an d restoring context of a program so that the exectuion can be resumed from the same point at another time.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://danielpygo.github.io/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/portfolio/</guid>
+      <description></description>
     </item>
     
   </channel>
