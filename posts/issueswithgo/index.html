@@ -17,20 +17,18 @@
     
     
 
-<title>My First Post • Daniel Moore&#39;s Website</title>
+<title>My Issues With Go • Daniel Moore&#39;s Website</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My First Post"/>
-<meta name="twitter:description" content="What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on wordpress, but they haven&rsquo;t really given me what I wanted
-Putting my thoughts and projects out there seems like a cool way to connect with people!"/>
+<meta name="twitter:title" content="My Issues With Go"/>
+<meta name="twitter:description" content="Look at this code snippet! This is pretty standard actually. Go has no exceptions and it leads to a very ugly style of programming sometimes. Go also lacks immutables, inheritance and generics. Its dependency management is a mess (no versioning support, yes really), it has a really annoying compile time error when you have an unused import, and GOPATH takes some getting use to. But by and large Go has been a successful language and I think it is because it makes grandiose promises of concurrency."/>
 
-<meta property="og:title" content="My First Post" />
-<meta property="og:description" content="What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on wordpress, but they haven&rsquo;t really given me what I wanted
-Putting my thoughts and projects out there seems like a cool way to connect with people!" />
+<meta property="og:title" content="My Issues With Go" />
+<meta property="og:description" content="Look at this code snippet! This is pretty standard actually. Go has no exceptions and it leads to a very ugly style of programming sometimes. Go also lacks immutables, inheritance and generics. Its dependency management is a mess (no versioning support, yes really), it has a really annoying compile time error when you have an unused import, and GOPATH takes some getting use to. But by and large Go has been a successful language and I think it is because it makes grandiose promises of concurrency." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://danielpygo.github.io/posts/my-first-post/" /><meta property="article:published_time" content="2018-11-12T15:55:32-06:00"/>
-<meta property="article:modified_time" content="2018-11-12T15:55:32-06:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
+<meta property="og:url" content="https://danielpygo.github.io/posts/issueswithgo/" /><meta property="article:published_time" content="2018-10-23T15:55:32-06:00"/>
+<meta property="article:modified_time" content="2018-10-23T15:55:32-06:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
 
 
     
@@ -186,20 +184,20 @@ Putting my thoughts and projects out there seems like a cool way to connect with
             
     <article>
   <header>
-    <h1>My First Post</h1>
+    <h1>My Issues With Go</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Nov 12, 2018
+      <i class="fas fa-calendar-alt"></i> Oct 23, 2018
     
     
     
     
     
     <br/>
-    <i class="fas fa-clock"></i> 1 min read
+    <i class="fas fa-clock"></i> 2 min read
 </div>
 
 
@@ -207,24 +205,31 @@ Putting my thoughts and projects out there seems like a cool way to connect with
   
   
   <div class="post">
-    <p>What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on wordpress, but they haven&rsquo;t really given me what I wanted</p>
+    <p><img src="/imgs/a.png" alt="Ugly go code snippet" /></p>
 
-<p>Putting my thoughts and projects out there seems like a cool way to connect with people! If you see something that interests or  have recommendations, tips or disagreements, shoot me an email and I&rsquo;d like to talk about it!
--Daniel</p>
+<p>Look at this code snippet! This is pretty standard actually. Go has no exceptions and it leads to a very ugly style of programming sometimes.
+Go also lacks immutables, inheritance and generics. Its dependency management is a mess (no versioning support, yes really), it has a really annoying compile time <a href="https://corte.si/posts/code/go/go-rant.html">error</a> when you have an unused import, and GOPATH takes some getting use to. But by and large Go has been a successful language and I think it is because it makes grandiose promises of concurrency. These aforementioned items are all frustrating, but when it comes to creating servers, networking, and web applications, Go is very useful.</p>
+
+<p>Also this <a href="http://nomad.uk.net/articles/why-gos-design-is-a-disservice-to-intelligent-programmers.html">article</a></p>
+
+<p><em>The key point here is our programmers are Googlers, they’re not researchers. They’re typically, fairly young, fresh out of school, probably learned Java, maybe learned C or C++, probably learned Python. They’re not capable of understanding a brilliant language but we want to use them to build good software. So, the language that we give them has to be easy for them to understand and easy to adopt. – Rob Pike 1</em></p>
+
+<p>I mean how condescending and out of touch does he sound? C++ is taught in schools and young, hungry developers, especially the ones at Google, are totally able to wrap their brain around C++ .</p>
+
+<p>I came across <a href="http://tmikov.blogspot.com/2015/02/you-dont-like-googles-go-because-you.html">this</a> post that harps on the hubris behind the design of Go . The lack of the inline &lsquo;?:&rsquo; operator, inability to overload functions, boiler plate code, no collections, and numerous other shortcomings, are all things this author points out !</p>
+
+<p>But this whole discussion about Go really begs the question: Would Go have been successful without Google?</p>
+
+<p>With any tool, it is important to research disadvantages, issues and shortcomings. A lot of Go programmers I think get caught up in this though &ldquo;At first I was confused by X, but actually it is genius!!&rdquo; trap - I&rsquo;ve said things like this. The fact is that there are valid criticisms of Go and sometimes it is important to trust your own instincts and judgement .</p>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/posts/issueswithgo/" class="navigation-prev">
-      <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">My Issues With Go</span>
-    </a>
     
-    
-    <a href="/posts/career/" class="navigation-next">
-      <span class="navigation-tittle">SWE at Microsoft</span>
+    <a href="/posts/my-first-post/" class="navigation-next">
+      <span class="navigation-tittle">My First Post</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

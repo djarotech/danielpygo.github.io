@@ -30,5 +30,14 @@
 Putting my thoughts and projects out there seems like a cool way to connect with people!</description>
     </item>
     
+    <item>
+      <title>My Issues With Go</title>
+      <link>https://danielpygo.github.io/posts/issueswithgo/</link>
+      <pubDate>Tue, 23 Oct 2018 15:55:32 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/posts/issueswithgo/</guid>
+      <description>Look at this code snippet! This is pretty standard actually. Go has no exceptions and it leads to a very ugly style of programming sometimes. Go also lacks immutables, inheritance and generics. Its dependency management is a mess (no versioning support, yes really), it has a really annoying compile time error when you have an unused import, and GOPATH takes some getting use to. But by and large Go has been a successful language and I think it is because it makes grandiose promises of concurrency.</description>
+    </item>
+    
   </channel>
 </rss>
