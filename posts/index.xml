@@ -17,17 +17,7 @@
       <pubDate>Sat, 08 Dec 2018 15:55:32 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/posts/career/</guid>
-      <description>The next chapter of my life will be spent as a SWE at Microsoft. Maybe it is just a feeling, but the last year or so was me taking some hard L&amp;rsquo;s (losses) - just take my word for it. I know that this is just life, but I have been down for a while now and it&amp;rsquo;s cool to see that in spite of this, my hard work has payed off .</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://danielpygo.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 12 Nov 2018 15:55:32 -0600</pubDate>
-      
-      <guid>https://danielpygo.github.io/posts/my-first-post/</guid>
-      <description>What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on wordpress, but they haven&amp;rsquo;t really given me what I wanted
-Putting my thoughts and projects out there seems like a cool way to connect with people!</description>
+      <description>The next chapter of my life will be spent as a SWE at Microsoft - I just signed the offer! Maybe it is just a feeling, but the last year or so was me taking some hard L&amp;rsquo;s (losses) - just take my word for it. I know that this is just life, but I have been down for a while now and it&amp;rsquo;s cool to see that in spite of this, my hard work has payed off .</description>
     </item>
     
     <item>
@@ -37,6 +27,16 @@ Putting my thoughts and projects out there seems like a cool way to connect with
       
       <guid>https://danielpygo.github.io/posts/issueswithgo/</guid>
       <description>Look at this code snippet! This is pretty standard actually - I have written code extremely similar to this. Go has no exceptions and it leads to a very ugly style of programming sometimes. Go also lacks immutables, inheritance and generics. Its dependency management is a mess (no versioning support, yes really), it has a really annoying compile time error when you have an unused import, and GOPATH takes some getting use to.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://danielpygo.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 12 Sep 2018 15:55:32 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/posts/my-first-post/</guid>
+      <description>What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on Wordpress, but they haven&amp;rsquo;t really given me what I wanted
+Putting my thoughts and projects out there seems like a cool way to connect with people!</description>
     </item>
     
   </channel>

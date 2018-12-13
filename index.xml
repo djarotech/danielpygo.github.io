@@ -17,15 +17,15 @@
       <pubDate>Sat, 08 Dec 2018 15:55:32 -0600</pubDate>
       
       <guid>https://danielpygo.github.io/posts/career/</guid>
-      <description>The next chapter of my life will be spent as a SWE at Microsoft. Maybe it is just a feeling, but the last year or so was me taking some hard L&amp;rsquo;s (losses) - just take my word for it. I know that this is just life, but I have been down for a while now and it&amp;rsquo;s cool to see that in spite of this, my hard work has payed off .</description>
+      <description>The next chapter of my life will be spent as a SWE at Microsoft - I just signed the offer! Maybe it is just a feeling, but the last year or so was me taking some hard L&amp;rsquo;s (losses) - just take my word for it. I know that this is just life, but I have been down for a while now and it&amp;rsquo;s cool to see that in spite of this, my hard work has payed off .</description>
     </item>
     
     <item>
       <title>Breaking up</title>
-      <link>https://danielpygo.github.io/personal/love/</link>
+      <link>https://danielpygo.github.io/personal/breakup/</link>
       <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://danielpygo.github.io/personal/love/</guid>
+      <guid>https://danielpygo.github.io/personal/breakup/</guid>
       <description>There&amp;rsquo;s nothing worse than a relationship on its last leg and that&amp;rsquo;s kind of where I have been for the last 3 months. It was miserable, but last night I felt like a weight was lifted off me and that I could finally breathe easy again. With so many rules, forbidden topics, and arguments/accusations, it was starting to feel like an adverserial game .
 Like, we weren&amp;rsquo;t on the same team.</description>
     </item>
@@ -61,11 +61,11 @@ With any discipline, challenge, or complexity - a difficult game always excites 
     </item>
     
     <item>
-      <title>Resume - Seeking Full Time Software Engineering Role or Summer Internship</title>
-      <link>https://danielpygo.github.io/resume/resume/</link>
+      <title>Resume</title>
+      <link>https://danielpygo.github.io/resume/</link>
       <pubDate>Mon, 12 Nov 2018 21:24:07 -0600</pubDate>
       
-      <guid>https://danielpygo.github.io/resume/resume/</guid>
+      <guid>https://danielpygo.github.io/resume/</guid>
       <description>Download pdf!</description>
     </item>
     
@@ -93,21 +93,11 @@ Why do mirrors reflect: Nature of the metal  Electrons are loosely attached to m
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://danielpygo.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 12 Nov 2018 15:55:32 -0600</pubDate>
-      
-      <guid>https://danielpygo.github.io/posts/my-first-post/</guid>
-      <description>What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on wordpress, but they haven&amp;rsquo;t really given me what I wanted
-Putting my thoughts and projects out there seems like a cool way to connect with people!</description>
-    </item>
-    
-    <item>
       <title>A Closer Look into the Big-Four</title>
-      <link>https://danielpygo.github.io/personal/closerlook/</link>
+      <link>https://danielpygo.github.io/personal/big4/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://danielpygo.github.io/personal/closerlook/</guid>
+      <guid>https://danielpygo.github.io/personal/big4/</guid>
       <description>Intro As a soon-to-be new grad, I am currently preparing for interviews with Google and Microsoft so I want to dive deeper into Microsoft, Google, Amazon, and Facebook.
 I read the go-to book on investing and the history of the stock market about three years ago and have identified myself as a risky investor . Nothing ventured nothing gained right? His advice is that the best you can ever do is to just throw your hands up in resignment and throw your money in an low-cost index fund; he&amp;rsquo;s probably right but I like taking a risk and putting my money in companies I believe in</description>
     </item>
@@ -123,10 +113,10 @@ I read the go-to book on investing and the history of the stock market about thr
     
     <item>
       <title>Five Year plan</title>
-      <link>https://danielpygo.github.io/personal/future/</link>
+      <link>https://danielpygo.github.io/personal/goals/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://danielpygo.github.io/personal/future/</guid>
+      <guid>https://danielpygo.github.io/personal/goals/</guid>
       <description>In 5 years I see myself working for a large tech company like Amazon/Google/Microsoft and building my skills to become an integral and useful developer. I have found that I get happiness when I see personal growth and by being ambitious/useful.
 I plan on getting a few certificates and eventually doing an online masters program in the next 5 years. Building my github portfolio more is something I want to do more out of college.</description>
     </item>
@@ -142,7 +132,17 @@ One of the top YouTube comments was &amp;ldquo;It&amp;rsquo;s like someone from 
     </item>
     
     <item>
-      <title>Favorite Quotes</title>
+      <title>My First Post</title>
+      <link>https://danielpygo.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 12 Sep 2018 15:55:32 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/posts/my-first-post/</guid>
+      <description>What I hope to get out of this blog, is a central store for my life, career and interests. Some may not care much about my career, so I intend to have other content on here as well. I have created two blogs in the past on Wordpress, but they haven&amp;rsquo;t really given me what I wanted
+Putting my thoughts and projects out there seems like a cool way to connect with people!</description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
       <link>https://danielpygo.github.io/quotes/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -158,7 +158,7 @@ Every step makes a footprint.</description>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://danielpygo.github.io/personal/banksy/</guid>
-      <description>I just watched Exit Through The Gift Shop (2010) the other night and it has to be my favorite documentary. It&amp;rsquo;s about graffiti art and produced by Banksy. It&amp;rsquo;s a documentary started by a crazy but hilarious french graffiti cameraman Thierry, but eventually finished by Banksy, the most famous and unmasked graffiti artist alive. Thierry, the cameraman, could never finish because he had collected thousands of hours of film over 8 years, with no real plan or storyline.</description>
+      <description>I just watched Exit Through The Gift Shop (2010) the other night and it has to be my favorite documentary. It&amp;rsquo;s about graffiti art and produced by Banksy. It&amp;rsquo;s a documentary started by a crazy but hilarious french cameraman, Thierry, but eventually finished by Banksy, the most famous and unmasked graffiti artist alive. Thierry, the cameraman, could never finish because he had collected thousands of hours of film over 8 years, with no real plan or storyline.</description>
     </item>
     
     <item>

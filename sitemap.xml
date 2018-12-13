@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://danielpygo.github.io/personal/love/</loc>
+    <loc>https://danielpygo.github.io/personal/breakup/</loc>
     <lastmod>2018-11-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://danielpygo.github.io/resume/resume/</loc>
+    <loc>https://danielpygo.github.io/resume/</loc>
     <lastmod>2018-11-12T21:24:07-06:00</lastmod>
   </url>
   
@@ -43,12 +43,7 @@
   </url>
   
   <url>
-    <loc>https://danielpygo.github.io/posts/my-first-post/</loc>
-    <lastmod>2018-11-12T15:55:32-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://danielpygo.github.io/personal/closerlook/</loc>
+    <loc>https://danielpygo.github.io/personal/big4/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,13 +53,18 @@
   </url>
   
   <url>
-    <loc>https://danielpygo.github.io/personal/future/</loc>
+    <loc>https://danielpygo.github.io/personal/goals/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://danielpygo.github.io/personal/judging/</loc>
     <lastmod>2018-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielpygo.github.io/posts/my-first-post/</loc>
+    <lastmod>2018-09-12T15:55:32-06:00</lastmod>
   </url>
   
   <url>
@@ -121,12 +121,6 @@
   <url>
     <loc>https://danielpygo.github.io/programming/</loc>
     <lastmod>2018-11-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://danielpygo.github.io/resume/</loc>
-    <lastmod>2018-11-12T21:24:07-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
