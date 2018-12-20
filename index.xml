@@ -6,10 +6,19 @@
     <description>Recent content on Daniel Moore&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Dec 2018 15:55:32 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://danielpygo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Interview Final Round Experience</title>
+      <link>https://danielpygo.github.io/personal/update/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/personal/update/</guid>
+      <description>I prepared quite a bit for the MS interview - studying at least 100 LC questions and I chose to do the coding in C++. I saw so many interview questions and did so many hacker-ranks/interviews that the MS interview wasn&amp;rsquo;t too difficult. I was prepared for it and had a list of questions I wanted to ask as well - I asked If there is anything frustrating about working there, what the most successful team members do that separates them, challenges in their department and a few business-type questions.</description>
+    </item>
     
     <item>
       <title>SWE at Microsoft</title>
@@ -103,7 +112,7 @@ I read the go-to book on investing and the history of the stock market about thr
     </item>
     
     <item>
-      <title>My Issues With Go</title>
+      <title>Issues With Go</title>
       <link>https://danielpygo.github.io/posts/issueswithgo/</link>
       <pubDate>Tue, 23 Oct 2018 15:55:32 -0600</pubDate>
       
