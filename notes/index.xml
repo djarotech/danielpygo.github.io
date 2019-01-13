@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Eloquent Javascript 3rd Edition</title>
+      <link>https://danielpygo.github.io/notes/eloquent_js/</link>
+      <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/eloquent_js/</guid>
+      <description>It allows you to do things in seconds that would take forever by hand. It is a way to make your computer tool do things that it couldn’t do before. And it provides a wonderful exercise in abstract thinking</description>
+    </item>
+    
+    <item>
       <title>Hashing</title>
       <link>https://danielpygo.github.io/notes/hashing/</link>
       <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
