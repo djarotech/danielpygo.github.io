@@ -17,17 +17,17 @@
     
     
 
-<title>Hashing • Daniel Moore&#39;s Website</title>
+<title>Kubernetes notes • Daniel Moore&#39;s Website</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hashing"/>
-<meta name="twitter:description" content="Notes about different hashing techniques"/>
+<meta name="twitter:title" content="Kubernetes notes"/>
+<meta name="twitter:description" content="Notes about kubernetes system"/>
 
-<meta property="og:title" content="Hashing" />
-<meta property="og:description" content="Notes about different hashing techniques" />
+<meta property="og:title" content="Kubernetes notes" />
+<meta property="og:description" content="Notes about kubernetes system" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://danielpygo.github.io/notes/hashing/" /><meta property="article:published_time" content="2018-11-12T20:55:46-06:00"/>
+<meta property="og:url" content="https://danielpygo.github.io/notes/kubernetes/" /><meta property="article:published_time" content="2018-11-12T20:55:46-06:00"/>
 <meta property="article:modified_time" content="2018-11-12T20:55:46-06:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
 
 
@@ -176,7 +176,7 @@
             
     <article>
   <header>
-    <h1>Hashing</h1>
+    <h1>Kubernetes notes</h1>
     
     
 <div class="post__meta">
@@ -199,71 +199,110 @@
   <div class="post">
     
 
-<p><a href="http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture24.pdf">Cmu hashing notes</a></p>
+<p><a href="https://github.com/ajeetraina/kubernetes101">Kubernetes github guide</a></p>
 
-<h2 id="separate-chaining">Separate Chaining</h2>
+<h2 id="ch1">Ch1</h2>
 
-<ul>
-<li>The idea is to maintain an array of linked lists</li>
-<li>All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure ..</li>
-<li>Cost of these operations is related to the average len of a chain.</li>
-<li>Disadvantage - costly allocation, and memory for the pointers.. O(n) worst case. The advantage is that it is not sensitive to the size of the table</li>
-</ul>
+<p>Kubelet ensures containers are running and healthy</p>
 
-<h2 id="open-address-hash-tables">Open address hash tables:</h2>
-
-<p>No linked lists, stores key in the array. Fewer cache misses, since typically all locations are checked on the same cache line.
-Basic idea is to maintain an array that is a constant factor larger than the number of keys, and store cells directly in the array.</p>
-
-<h2 id="linear-probing">Linear probing</h2>
-
-<p><code>h(k,i) = (h(k)+i)</code></p>
+<h3 id="pods">PODS</h3>
 
 <ul>
-<li>Ordered sequences of locations. If collision, iterate until an empty spot.</li>
-<li>Leads to primary clustering where it just keeps growing larger and larger as it takes up space. Keys tend to cluster, adds to cluster size.</li>
-<li>Performance degrades when load factor increases</li>
+<li>multiple containers and storage vols</li>
+<li>One deployment multiple pods</li>
+<li>containers in the same pod has access to shared volume</li>
+<li>pods are up and running until a controller destroys them</li>
+
+<li><p>needs persistent storage they are ephemeral</p>
+
+<h3 id="deployments">Deployments</h3></li>
+
+<li><p>Blueprint is a blueprint that deploys pods according to some spec</p></li>
+
+<li><p>Sort of like an instance of a pod</p></li>
+
+<li><p>Keep the pods running and update them in a controlled way</p></li>
+
+<li><p>Resource usage can be specified</p></li>
+
+<li><p>Inside the kubelet</p></li>
 </ul>
 
-<h2 id="quadratic-probing">Quadratic probing:</h2>
-
-<p><code>h(k,i) = (h(k)+i^2)</code></p>
+<h3 id="secrets">Secrets</h3>
 
 <ul>
-<li>Avoids primary clustering, still has secondary clusters. When two hash to same location, have same probe sequence.</li>
-<li>One prob is that it does not probe all locations in the table</li>
+<li>An object where to store sensitive info like users and passwords</li>
+<li>base64 encoded</li>
+<li>refer to the secret in our pod</li>
+<li>not encrypted, must use encryptionconfig</li>
 </ul>
 
-<h2 id="double-hashing">Double Hashing</h2>
-
-<p><em>Separate hash function for the jump</em></p>
-
-<p><code>h(k,i) = (h(k)+i*h(k))</code></p>
+<h3 id="service">Service</h3>
 
 <ul>
-<li>Keys that hash to same loc, are likely to hash to a diff jump size.</li>
-<li>Double hashing avoids secondary clustering by providing much more probe sequences m^2.
-Better when load factor is almost full</li>
-<li>Allows for smaller tables (high load factors), but ofc high costs for next probe</li>
+<li>Responsible for mkaing pods discoverable inside the network or exposing to the internet</li>
+<li>identifies pods by its labelselector</li>
+<li>service has a reliable, nonchanging ip. think microservices</li>
 </ul>
 
-<h2 id="conclusion">Conclusion</h2>
+<h4 id="clusterip">ClusterIP</h4>
 
-<p>Hashing is an example of a space-time tradeoff. Increase the space so table operations are faster, decrease the space but table operation are slower</p>
+<ul>
+<li>deployment only visible inside the cluster</li>
+</ul>
 
-<p>Open addressing more space efficient. Linear probing, has small constants and works well with caches. suffers badly from clustering. Quadratic hashing requires rehashing when load reaches 50%.
-Double hashing reduces clustering, but finding suitable pairs of hash functions is difficult and increases the cost of a probe.</p>
+<h4 id="node-port">Node port</h4>
+
+<ul>
+<li>deployment only visible inside the cluster</li>
+<li>deployment bound to a port of the master node</li>
+<li>each node will proxy that port to your Service</li>
+</ul>
+
+<h4 id="load-balancer">Load balancer</h4>
+
+<ul>
+<li>gets a public ip assigned, http://:80</li>
+<li>traffic loadbalanced between the pods of the deployment</li>
+</ul>
+
+<h3 id="etc">etc</h3>
+
+<ul>
+<li>Can scale up a deployment easily, deployments allow for
+rolling updates and scaling and replicasets. Services then grab
+these pods with selectors usually and expose them internally or externally.
+<br /></li>
+</ul>
+
+<h3 id="daemon-set">Daemon Set</h3>
+
+<ul>
+<li>A copy running on each of the nodes ,prometheus</li>
+</ul>
+
+<h3 id="job-there-is-also-cronjob-parallel-non-parallel">Job (there is also cronjob, parallel, non parallel)</h3>
+
+<ul>
+<li>RestartPolicy=OnFailure</li>
+<li>Runs something ONCE. image processing</li>
+</ul>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/notes/kubernetes/" class="navigation-prev">
+    <a href="/notes/light_physics/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Kubernetes notes</span>
+      <span class="navigation-tittle">Ray Tracing/Physics</span>
     </a>
     
+    
+    <a href="/notes/hashing/" class="navigation-next">
+      <span class="navigation-tittle">Hashing</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

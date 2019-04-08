@@ -17,18 +17,17 @@
     
     
 
-<title>Hashing • Daniel Moore&#39;s Website</title>
+<title>GraphQL notes pt 2 • Daniel Moore&#39;s Website</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hashing"/>
-<meta name="twitter:description" content="Notes about different hashing techniques"/>
+<meta name="twitter:title" content="GraphQL notes pt 2"/>
+<meta name="twitter:description" content="Notes about graphql system"/>
 
-<meta property="og:title" content="Hashing" />
-<meta property="og:description" content="Notes about different hashing techniques" />
+<meta property="og:title" content="GraphQL notes pt 2" />
+<meta property="og:description" content="Notes about graphql system" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://danielpygo.github.io/notes/hashing/" /><meta property="article:published_time" content="2018-11-12T20:55:46-06:00"/>
-<meta property="article:modified_time" content="2018-11-12T20:55:46-06:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
+<meta property="og:url" content="https://danielpygo.github.io/notes/graphql/" /><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
 
 
     
@@ -176,13 +175,11 @@
             
     <article>
   <header>
-    <h1>Hashing</h1>
+    <h1>GraphQL notes pt 2</h1>
     
     
 <div class="post__meta">
     
-    
-      <i class="fas fa-calendar-alt"></i> Nov 12, 2018
     
     
     
@@ -199,71 +196,48 @@
   <div class="post">
     
 
-<p><a href="http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture24.pdf">Cmu hashing notes</a></p>
-
-<h2 id="separate-chaining">Separate Chaining</h2>
+<h2 id="graphql-basics">GRAPHQL BASICS</h2>
 
 <ul>
-<li>The idea is to maintain an array of linked lists</li>
-<li>All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure ..</li>
-<li>Cost of these operations is related to the average len of a chain.</li>
-<li>Disadvantage - costly allocation, and memory for the pointers.. O(n) worst case. The advantage is that it is not sensitive to the size of the table</li>
+<li>It is a query language to avoid under and overfetching from apis.</li>
+<li>Most applications today have the need to fetch data from a server where that data is stored in a database.
+It’s the responsibility of the API to provide an interface to the stored data that fits an application’s needs.</li>
+<li>&rdquo;&rsquo; Increased mobile usage, low-powered devices and sloppy networks were the initial reasons why Facebook developed GraphQL.
+GraphQL minimizes the amount of data that needs to be transferred over the network and thus majorly improves applications
+operating under these conditions.&ldquo;&rsquo;</li>
 </ul>
 
-<h2 id="open-address-hash-tables">Open address hash tables:</h2>
+<p>When you previously used plain HTTP (like fetch in Javascript or NSURLSession on iOS) to load data from an API, all you need to do with GraphQL is write a query where you declare your data requirements and let the system take care of sending the request and handling the response for you. This is precisely what a GraphQL client will do.</p>
 
-<p>No linked lists, stores key in the array. Fewer cache misses, since typically all locations are checked on the same cache line.
-Basic idea is to maintain an array that is a constant factor larger than the number of keys, and store cells directly in the array.</p>
+<p>So there is a Query, specifying which queries
+and what they return,
+then you pass that with the resolver, and it goes BFS and resolves all the nested
+fields, then repackages it up. If you violate the schema, it reutnrs data and error
+otherwise just data</p>
 
-<h2 id="linear-probing">Linear probing</h2>
+<p>schema-driven or schema-first development.
+-Extend the GraphQL schema definition with a new root field (and new data types, if needed)
+-Implement corresponding resolver functions for the added fields</p>
 
-<p><code>h(k,i) = (h(k)+i)</code></p>
+<p>Query Resolution</p>
 
-<ul>
-<li>Ordered sequences of locations. If collision, iterate until an empty spot.</li>
-<li>Leads to primary clustering where it just keeps growing larger and larger as it takes up space. Keys tend to cluster, adds to cluster size.</li>
-<li>Performance degrades when load factor increases</li>
-</ul>
-
-<h2 id="quadratic-probing">Quadratic probing:</h2>
-
-<p><code>h(k,i) = (h(k)+i^2)</code></p>
-
-<ul>
-<li>Avoids primary clustering, still has secondary clusters. When two hash to same location, have same probe sequence.</li>
-<li>One prob is that it does not probe all locations in the table</li>
-</ul>
-
-<h2 id="double-hashing">Double Hashing</h2>
-
-<p><em>Separate hash function for the jump</em></p>
-
-<p><code>h(k,i) = (h(k)+i*h(k))</code></p>
-
-<ul>
-<li>Keys that hash to same loc, are likely to hash to a diff jump size.</li>
-<li>Double hashing avoids secondary clustering by providing much more probe sequences m^2.
-Better when load factor is almost full</li>
-<li>Allows for smaller tables (high load factors), but ofc high costs for next probe</li>
-</ul>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Hashing is an example of a space-time tradeoff. Increase the space so table operations are faster, decrease the space but table operation are slower</p>
-
-<p>Open addressing more space efficient. Linear probing, has small constants and works well with caches. suffers badly from clustering. Quadratic hashing requires rehashing when load reaches 50%.
-Double hashing reduces clustering, but finding suitable pairs of hash functions is difficult and increases the cost of a probe.</p>
+<p>Can you imagine what the query resolution process now looks like? Effectively, everything the GraphQL server has to do is invoke all resolver functions for the fields that are contained in the query and then package up the response according to the query&rsquo;s shape. Query resolution thus merely becomes a process of orchestrating the invocation of resolver functions!</p>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/notes/kubernetes/" class="navigation-prev">
+    <a href="/notes/kubeplus-pac/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Kubernetes notes</span>
+      <span class="navigation-tittle">KubePlus notes pt 2</span>
     </a>
     
+    
+    <a href="/notes/threadsprocess/" class="navigation-next">
+      <span class="navigation-tittle">Threads and Processes</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
     
 </div>
 

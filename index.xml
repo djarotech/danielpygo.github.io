@@ -70,15 +70,6 @@ With any discipline, challenge, or complexity - a difficult game always excites 
     </item>
     
     <item>
-      <title>Eloquent Javascript 3rd Edition</title>
-      <link>https://danielpygo.github.io/notes/eloquent_js/</link>
-      <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
-      
-      <guid>https://danielpygo.github.io/notes/eloquent_js/</guid>
-      <description>It allows you to do things in seconds that would take forever by hand. It is a way to make your computer tool do things that it couldn’t do before. And it provides a wonderful exercise in abstract thinking</description>
-    </item>
-    
-    <item>
       <title>Hashing</title>
       <link>https://danielpygo.github.io/notes/hashing/</link>
       <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
@@ -86,6 +77,19 @@ With any discipline, challenge, or complexity - a difficult game always excites 
       <guid>https://danielpygo.github.io/notes/hashing/</guid>
       <description>Cmu hashing notes
 Separate Chaining  The idea is to maintain an array of linked lists All keys that hash to the same loc are just added to the linked list. Could maybe optimize these linked lists by having an lru cache implemntation or another data structure .. Cost of these operations is related to the average len of a chain. Disadvantage - costly allocation, and memory for the pointers.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes notes</title>
+      <link>https://danielpygo.github.io/notes/kubernetes/</link>
+      <pubDate>Mon, 12 Nov 2018 20:55:46 -0600</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/kubernetes/</guid>
+      <description>Kubernetes github guide
+Ch1 Kubelet ensures containers are running and healthy
+PODS  multiple containers and storage vols One deployment multiple pods containers in the same pod has access to shared volume pods are up and running until a controller destroys them needs persistent storage they are ephemeral
+Deployments Blueprint is a blueprint that deploys pods according to some spec
+ Sort of like an instance of a pod</description>
     </item>
     
     <item>
@@ -168,7 +172,9 @@ Putting my thoughts and projects out there seems like a cool way to connect with
       <guid>https://danielpygo.github.io/quotes/</guid>
       <description>If small holes aren&amp;rsquo;t fixed, then big holes will bring hardship.
 It&amp;rsquo;s better to walk thousands of miles than to read thousands of books.
-Every step makes a footprint.</description>
+Every step makes a footprint.
+Today&amp;rsquo;s scientists have substituted mathematics for experiments, and they wander off through equation after equation, and eventually build a structure which has no relation to reality. - Nikola Tesla
+With ideas it is like with dizzy heights you climb: At first they cause you discomfort and you are anxious to get down, distrustful of your own powers; but soon the remoteness of the turmoil of life and the inspiring influence of the altitude calm your blood; your step gets firm and sure and you begin to look - for dizzier heights.</description>
     </item>
     
     <item>
@@ -199,6 +205,24 @@ Every step makes a footprint.</description>
 A process can consist of multiple threads
 Threads are lightweight processes used to complete small tasks; processes used for heavier tasks.
 Advantages of Threads:  Lightweight Can read and write to the same data structures and resources.  Disadvantages of Threads:  IPC is difficult and errors arise Synchronization and race conditions Requires careful attention; must use a lock to prevent other threads from running a certain critical section  Advantages of Process  Independent of each other (threads are interdepedent)  Context Switching  The process of storing an d restoring context of a program so that the exectuion can be resumed from the same point at another time.</description>
+    </item>
+    
+    <item>
+      <title>GraphQL notes pt 2</title>
+      <link>https://danielpygo.github.io/notes/graphql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/graphql/</guid>
+      <description>GRAPHQL BASICS  It is a query language to avoid under and overfetching from apis. Most applications today have the need to fetch data from a server where that data is stored in a database. It’s the responsibility of the API to provide an interface to the stored data that fits an application’s needs. &amp;rdquo;&amp;rsquo; Increased mobile usage, low-powered devices and sloppy networks were the initial reasons why Facebook developed GraphQL.</description>
+    </item>
+    
+    <item>
+      <title>KubePlus notes pt 2</title>
+      <link>https://danielpygo.github.io/notes/kubeplus-pac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/kubeplus-pac/</guid>
+      <description>What is CloudArk? CloudArk is an API Management software , aiming to get Operators enterprise-ready. The vision is an open marketplace where companies can build their platform using a declarative format. CloudFormation, at Amazon, has grown to be highly useful because it provisions infrastructure using a single yaml file. Infrastructure-as-code. However one of the major drawbacks is vendor lock-in obviously. Enterprises want flexibility when planning for the future. Furthermore, it provisions only AWS services, limiting it significantly to the products that Amazon has built or chooses to build.</description>
     </item>
     
     <item>

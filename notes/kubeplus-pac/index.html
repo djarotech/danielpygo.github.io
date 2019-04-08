@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.51" />
+
+    
+    
+    
+
+<title>KubePlus notes pt 2 • Daniel Moore&#39;s Website</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="KubePlus notes pt 2"/>
+<meta name="twitter:description" content="Notes about KubePlus system"/>
+
+<meta property="og:title" content="KubePlus notes pt 2" />
+<meta property="og:description" content="Notes about KubePlus system" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://danielpygo.github.io/notes/kubeplus-pac/" /><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
+
+
+    
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f9cf46497d47ab04f9b7ae2c42549b2811e63a3a6c58bdfc09b114e0f4b975d0.css" integrity="sha256-&#43;c9GSX1HqwT5t64sQlSbKBHmOjpsWL38CbEU4PS5ddA=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+
+</head>
+
+
+    <body class="theme-base-08 ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://danielpygo.github.io/">Daniel Moore&#39;s Website</a>
+      </span>
+      
+      
+      
+      <div class="author-image">
+        <img src="https://danielpygo.github.io//daniel.jpg" alt="Author Image" class="img--circle img--headshot element--center">
+      </div>
+      
+      <p class="site__description">
+         The game begat the player 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Daniel Moore&#39;s Website</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/notes/">
+						<span>Notes</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/personal/">
+						<span>Personal</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/portfolio/">
+						<span>Portfolio</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/programming/">
+						<span>Programming</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/quotes/">
+						<span>Quotes</span>
+					</a>
+				</li>
+			 
+		
+		</li>
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/dan_moore_10x" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	<a href="https://github.com/danielpygo" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	<a href="https://linkedin.com/in/daniel-moore-07962b104" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="mailto:ddmoorish@gmail.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	
+</section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="content container">
+            
+    <article>
+  <header>
+    <h1>KubePlus notes pt 2</h1>
+    
+    
+<div class="post__meta">
+    
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 4 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    
+
+<h2 id="what-is-cloudark">What is CloudArk?</h2>
+
+<p>CloudArk is an API Management software , aiming to get Operators enterprise-ready. The vision is an open marketplace where companies can build their platform using a declarative format. CloudFormation, at Amazon, has grown to be highly useful because it provisions infrastructure using a single yaml file. Infrastructure-as-code. However one of the major drawbacks is vendor lock-in obviously. Enterprises want flexibility when planning for the future. Furthermore, it provisions only AWS services, limiting it significantly to the products that Amazon has built or chooses to build. And thus, could lag behind the cutting edge and the newest softwares on Github.
+Large enterprise companies planning ahead, might want to look elsewhere.</p>
+
+<h2 id="what-about-kubernetes">What about Kubernetes?</h2>
+
+<p>First and foremost, there are many cloud services that offer Kubernetes. From DigitalOcean, to Amazon, to Google and more. In spite of this, Kubernetes itself does NOT solve vendor lock-in.</p>
+
+<h2 id="what-is-kubernetes">What is Kubernetes?</h2>
+
+<p>Kubernetes manages and orchestrates small ephemeral units called Containers. The nature of Containers is ephemeral and stateless. A REST API could run in one of these, however this rest API is often bound to a database service on the cloud. There are many of such bindings, that essentially locks-in a piece of software to a specific cloud company.  So, as a result, Kubernetes, this great piece of software, has a problem with Statefulness. Keeping the application state of a Database like Redis, is much more complex than keeping a number of replicas for an nginx app. Stateful is difficult, Stateless is not.</p>
+
+<h2 id="enter-operators">Enter Operators</h2>
+
+<p>There has been a lot of official support from CoreOS and others for a new Kubernetes paradigm called Operators. Kubernetes has controllers and resources to ensure a declarative state. Operators are custom-built controllers paired with custom resources that require domain-knowledge to build.
+They are extensions to the official Kubernetes API; They can leverage the power of Kubernetes, along with a lot of the tooling and support that normal controllers and resources have.
+The controller ensures that Kubernetes ensures a specific state for stateful applications, so they are providing Statefulness to Kubernetes itself.</p>
+
+<p>If you think about it, these operators are doing the exact same function as Amazon S3, Amazon RDS. While Kubernetes provisions the servers and nodes, so does Amazon RDS.</p>
+
+<p>What CloudArk provides is the opportunity to specify a Web Application’s tech stack or platform in a single declarative format. Platform as code. While CloudFormation provides Infrastructure as Code (for instance, the file might say, give me three AWS Elastic search server, three AWS RDS mysql server, etc), CloudArk does a similar thing (give me a prometheus operator, a mysql operator, a kafka operator, an elasticsearch operator and a tensorflow operator).</p>
+
+<p>Do you see why there is overlap between the two? There is a corporate MongoDB service Mongodb Cloud Services and also an kubernetes mongodb operator. There is a corporate tensorflow service like Cloud ML and also an kubernetes tensorflow operator.</p>
+
+<p>This is because both of these are Stateful applications. While some companies choose to make a service layer above the mongodb source code, or a service layer on top of the prometheus source code, others use their domain knowledge to create a mongodb operator or a prometheus operator. For example, an apache spark contributor on Github, Yinan Li, has taken her domain expertise to create Google’s spark-on-k8s-operator, but she very well could be hired tomorrow by Amazon EMR and do a fantastic job for their inbuilt service.</p>
+
+<p>In this sense, Kubernetes, a piece of software used on many different cloud services, just got a whole lot more interesting with CloudArk.</p>
+
+<h2 id="what-is-my-own-vision">What is my own vision ?</h2>
+
+<p>We have already got proof of concept and have solved some challenging problems so far and are working on the first use-case. Right now, there are three three stateless API containers that interact with each other to deploy a number of Operators using Helm. But this is all done on the command line. The customer deploys our pod, and our API will deploy the Operators and expose some useful information about the composition of the Operator itself.</p>
+
+<p>But I have a vision for this idea that includes a beautiful and fast website component, that serves as a dashboard for software and devops engineers. It has options for which cloud service to deploy to - a couple buttons AWS, GCP, Azure, DigitalOcean, etc. The website could tell the Developers information about the Custom Resources themselves, and what parameters or configuration options are included in the operator source code.</p>
+
+<p>From the Software Engineering perspective, they go to the web app for documentation about the Operators we support, for guides/tutorials, and lastly to the dashboard for easy information about key information they need for developing their app. What was the database ip again?
+Devops engineers would go to the website and use the dashboard and buttons to deploy or remove any operator they wish. They can rapidly change their tech stack.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    
+    <a href="/notes/graphql/" class="navigation-next">
+      <span class="navigation-tittle">GraphQL notes pt 2</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
+  integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
+  crossorigin="anonymous">
+</script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
+
+
+
+    </body>
+</html>
