@@ -60,7 +60,7 @@ Advantages of Threads:  Lightweight Can read and write to the same data structur
     </item>
     
     <item>
-      <title>GraphQL notes pt 2</title>
+      <title>GraphQL notes</title>
       <link>https://danielpygo.github.io/notes/graphql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -69,7 +69,16 @@ Advantages of Threads:  Lightweight Can read and write to the same data structur
     </item>
     
     <item>
-      <title>KubePlus notes pt 2</title>
+      <title>KubePlus notes Pt. 1</title>
+      <link>https://danielpygo.github.io/notes/kubeplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danielpygo.github.io/notes/kubeplus/</guid>
+      <description>KubePlus * CaaS avoids vendor lock-in * advanced capabilities of containerized elements not possible * Kubeplus extends kubernetes with operators, different than PaaS approach * Operators extend Kubernetes API to manage software for queues, databases. Self-assemble these * Devops constructs custom PaaS, provisions, .yamls * Application Developer declares and creates application platforms as code leveraging custom resources introduced by the installed Operators.? So to find credentials the app developer may want to go and discover Postgres instances, he logs in and interacts.</description>
+    </item>
+    
+    <item>
+      <title>KubePlus notes Pt. 2</title>
       <link>https://danielpygo.github.io/notes/kubeplus-pac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

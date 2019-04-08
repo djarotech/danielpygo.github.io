@@ -17,18 +17,17 @@
     
     
 
-<title>Threads and Processes • Daniel Moore&#39;s Website</title>
+<title>KubePlus notes Pt. 1 • Daniel Moore&#39;s Website</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Threads and Processes"/>
-<meta name="twitter:description" content="Notes about differences between the two"/>
+<meta name="twitter:title" content="KubePlus notes Pt. 1"/>
+<meta name="twitter:description" content="Notes about KubePlus system"/>
 
-<meta property="og:title" content="Threads and Processes" />
-<meta property="og:description" content="Notes about differences between the two" />
+<meta property="og:title" content="KubePlus notes Pt. 1" />
+<meta property="og:description" content="Notes about KubePlus system" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://danielpygo.github.io/notes/threadsprocess/" /><meta property="article:published_time" content="2018-07-10T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-07-10T00:00:00&#43;00:00"/><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
+<meta property="og:url" content="https://danielpygo.github.io/notes/kubeplus/" /><meta property="og:site_name" content="Daniel Moore&#39;s website and blog" />
 
 
     
@@ -176,13 +175,11 @@
             
     <article>
   <header>
-    <h1>Threads and Processes</h1>
+    <h1>KubePlus notes Pt. 1</h1>
     
     
 <div class="post__meta">
     
-    
-      <i class="fas fa-calendar-alt"></i> Jul 10, 2018
     
     
     
@@ -197,55 +194,28 @@
   
   
   <div class="post">
-    
-
-<p>Process is an executing program</p>
-
-<p>A process can consist of multiple threads</p>
-
-<p>Threads are lightweight processes used to complete small tasks; processes used for heavier tasks.</p>
-
-<h2 id="advantages-of-threads">Advantages of Threads:</h2>
-
-<ul>
-<li>Lightweight</li>
-<li>Can read and write to the same data structures and resources.</li>
-</ul>
-
-<h2 id="disadvantages-of-threads">Disadvantages of Threads:</h2>
-
-<ul>
-<li>IPC is difficult and errors arise</li>
-<li>Synchronization and race conditions</li>
-<li>Requires careful attention; must use a lock to prevent other threads from running a certain critical section</li>
-</ul>
-
-<h2 id="advantages-of-process">Advantages of Process</h2>
-
-<ul>
-<li>Independent of each other (threads are interdepedent)</li>
-</ul>
-
-<h2 id="context-switching">Context Switching</h2>
-
-<ul>
-<li>The process of storing an d restoring context of a program so that the exectuion can be resumed from the same point at another time. Memory caches have to be flushed and reloaded for the new process. Overhead in determining what process to execute next.</li>
-<li>Usually takes 3-5 microseconds</li>
-</ul>
+    <p><a href="https://itnext.io/evolution-of-paases-to-platform-as-code-in-kubernetes-world-74464b0013ca">KubePlus</a>
+  * CaaS avoids vendor lock-in
+  * advanced capabilities of containerized elements not possible
+  * Kubeplus extends kubernetes with operators, different than PaaS approach
+  * Operators extend Kubernetes API to manage software for queues, databases.  Self-assemble these
+  * Devops constructs custom PaaS, provisions, .yamls
+  * Application Developer declares and creates application platforms as code leveraging custom resources introduced by the installed Operators.? So to find credentials the app developer may want to go and discover Postgres instances, he logs in and interacts.
+  * What is the role of these helm charts in all of this? for operators. Why use them for operators.</p>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/notes/graphql/" class="navigation-prev">
+    <a href="/notes/kubeplus-pac/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">GraphQL notes</span>
+      <span class="navigation-tittle">KubePlus notes Pt. 2</span>
     </a>
     
     
-    <a href="/notes/light_physics/" class="navigation-next">
-      <span class="navigation-tittle">Ray Tracing/Physics</span>
+    <a href="/notes/graphql/" class="navigation-next">
+      <span class="navigation-tittle">GraphQL notes</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     
